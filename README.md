@@ -1,6 +1,16 @@
 # Notes from the Pluralsight course 
-Integration test code along 
-https://app.pluralsight.com/library/courses/java-testing-introduction/table-of-contents
+Integration test playground, simple starter app.
 
-## getting strted with tests
+* Makito to test dependency injection (constructor dep injection).
+* Hamcrest for assertions.
+* JUnit.
+
+## run tests
+`mvn test`
+
+## compile console app
+`mvn assembly:single`
+
+## run the app
+`java -jar ConsoleApp.jar src/main/resources/example-sales.csv`
 
