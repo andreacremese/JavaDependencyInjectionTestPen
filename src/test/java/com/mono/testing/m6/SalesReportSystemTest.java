@@ -14,7 +14,7 @@ public class SalesReportSystemTest {
         // act
 
         // assert
-        assertThat(report, containsString("London 235"));
+        assertThat(report, containsString("London          -    235"));
     }
 
 }
