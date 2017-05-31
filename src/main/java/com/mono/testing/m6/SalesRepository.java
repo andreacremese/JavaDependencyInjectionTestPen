@@ -1,8 +1,6 @@
 package com.mono.testing.m6;
 
-
 import au.com.bytecode.opencsv.CSVReader;
-import com.mono.testing.m6.Sale;
 
 import java.io.File;
 import java.io.FileReader;
